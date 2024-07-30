@@ -1,12 +1,16 @@
+//calculator
 let calculator = {
+    // optional numbers
     num1: 100,
     num2: 75,
   };
+  // mathematics symbols
   let plus = calculator.num1 + calculator.num2,
     minus = calculator.num1 - calculator.num2,
     division = calculator.num1 / calculator.num2,
     multiplication = calculator.num1 * calculator.num2,
     remainder = calculator.num1 % calculator.num2;
+    //printing the results
   console.log("numbers:" , calculator.num1, "," ,calculator.num2);
   console.log("plus:", plus);
   console.log("minus:", minus);
